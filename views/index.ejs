@@ -10,7 +10,7 @@
 <body>
     <h1><%=title%></h1>
     <div>
-        <% messages.map((message)=>{ %>
+        <% messages.map((message, index)=>{ %>
             <p>
                 <%= message.text %>
             </p>
@@ -20,8 +20,11 @@
             <p>
                 <%= message.added%>
             </p>
+            <a href="/open/<%=index%>">Details</a>
             <% }) %>
     </div>
+
+    <a href="/new">Add New Message</a>
 </body>
 
 </html>

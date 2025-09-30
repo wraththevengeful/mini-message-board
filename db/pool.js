@@ -1,5 +1,5 @@
-const {Pool} = require(`pg`);
+// const {Pool} = require(`pg`);
 
-module.exports = new Pool({
-    connectionString:DATABASE_URL
-})
+// module.exports = new Pool({
+//     connectionString:DATABASE_URL
+// })

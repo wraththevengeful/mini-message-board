@@ -12,15 +12,15 @@
     <div>
         <% messages.map((message, index)=>{ %>
             <p>
-                <%= message.text %>
+                <%= message.messagetext %>
             </p>
             <p>
-                <%= message.user%>
+                <%= message.username %>
             </p>
             <p>
                 <%= message.added%>
             </p>
-            <a href="/open/<%=index%>">Details</a>
+            <a href="/open/<%=message.id%>">Details</a>
             <% }) %>
     </div>
 

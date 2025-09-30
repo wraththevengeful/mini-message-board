@@ -27,5 +27,3 @@ app.listen(PORT, (error) => {
 
     console.log('Running on PORT:', PORT);
 })
-
-console.log(pool)
